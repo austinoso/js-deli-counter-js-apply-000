@@ -21,4 +21,6 @@ function currentLine(line) {
       currentLine.push("empty")
     }
   }
+
+  return `The line is currently: ${currentLine}`
 }
