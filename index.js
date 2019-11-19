@@ -16,7 +16,7 @@ function currentLine(line) {
 
   if(line.length){
     for (var i = 0; i < line.length; i++) {
-      currentLine.push(`${i+1}. ${line[i]}`)
+      currentLine.push(` ${i+1}. ${line[i]}`)
     } else {
       currentLine.push("empty")
     }
