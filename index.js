@@ -12,9 +12,11 @@ function nowServing(line){
 }
 
 function currentLine(line) {
+  var currentLine = []
+
   if(line.length){
     for (var i = 1; i < line.length; i++) {
-      array[i]
+
     }
   }
 }
