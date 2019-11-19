@@ -22,5 +22,5 @@ function currentLine(line) {
     }
   }
 
-  return `The line is currently: ${currentLine}`
+  return `The line is currently:${currentLine}`
 }
